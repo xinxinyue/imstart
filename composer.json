@@ -1,0 +1,21 @@
+{
+    "name": "xinxinyue/imstart",
+    "description": "xy-imframe kernel",
+    "type": "library",
+    "authors": [
+        {
+            "name": "xinxinyue",
+            "email": "546854479@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "psr-4":{
+            "ImStart\\":"./src/"
+        },
+        "files":[
+            "src/Supper/Helper.php"
+        ]
+
+    }
+}
